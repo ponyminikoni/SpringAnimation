@@ -15,7 +15,7 @@ class MainViewController: UIViewController {
     
     @IBOutlet var animationView: SpringView!
     
-    let animations = Animation.get()
+    let animations = Animation.getAnimation()
     
     var nextAnimation: Animation! = nil
     

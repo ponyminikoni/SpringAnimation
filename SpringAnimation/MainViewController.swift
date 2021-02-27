@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
     
     var nextAnimation: Animation! = nil
     
-    @IBAction func runAnimation(_ sender: SpringButton) {
+    @IBAction func runAnimation() {
         
         var currentAnimation = animations.randomElement()!
         
@@ -43,4 +43,3 @@ Dalay: \(currentAnimation.deley)
         runButton.setTitle("Next: " + nextAnimation.name, for: .normal)
     }
 }
-

@@ -39,7 +39,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnL-vu-NXS" customClass="SpringButton" customModule="Spring">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnL-vu-NXS">
                                 <rect key="frame" x="40" y="429" width="240" height="48"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -52,7 +52,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="runAnimation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SUU-ty-sKr"/>
+                                    <action selector="runAnimation" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRb-OU-O9d"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,7 +71,7 @@
                     <connections>
                         <outlet property="animationView" destination="1fD-6y-Lfa" id="X6p-B4-QFB"/>
                         <outlet property="lableOnView" destination="Hgw-tb-S22" id="H4a-TS-k1C"/>
-                        <outlet property="runButton" destination="WnL-vu-NXS" id="R2J-RY-Qe4"/>
+                        <outlet property="runButton" destination="WnL-vu-NXS" id="9SG-ut-X4M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

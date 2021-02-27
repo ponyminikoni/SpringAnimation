@@ -13,8 +13,11 @@ struct Animation {
     let force: CGFloat
     let duration: CGFloat
     let deley: CGFloat
+}
+
+extension Animation {
     
-    static func get() -> [Animation] {
+    static func getAnimation() -> [Animation] {
         
         var animations: [Animation] = []
         
